@@ -1,4 +1,5 @@
-﻿using JWTAuthServer.Core.DTOs;
+﻿using JWTAuthServer.Core.Configuration;
+using JWTAuthServer.Core.DTOs;
 using JWTAuthServer.Core.Model;
 
 namespace JWTAuthServer.Core.Services
