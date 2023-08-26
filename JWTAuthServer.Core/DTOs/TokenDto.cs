@@ -1,6 +1,6 @@
 ﻿namespace JWTAuthServer.Core.DTOs
 {
-    public interface TokenDto
+    public class TokenDto
     {
         public string AccessToken { get; set; }
         public DateTime AccessTokenExpiration { get; set; }
