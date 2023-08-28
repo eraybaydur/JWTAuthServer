@@ -8,8 +8,8 @@ namespace JWTAuthServer.Service
     {
         public DtoMapper()
         {
-            CreateMap<ProductDto,Product>().ReverseMap();
-            CreateMap<AppUserDto,AppUser>().ReverseMap();
+            CreateMap<ProductDto, Product>().ReverseMap();
+            CreateMap<AppUserDto, AppUser>().ReverseMap();
         }
     }
 }
